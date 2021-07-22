@@ -1,3 +1,6 @@
-{
-    "singleQuote": true
+{   
+    "tralingComma": "none",
+    "singleQuote": true,
+    "semi": false
+
 }

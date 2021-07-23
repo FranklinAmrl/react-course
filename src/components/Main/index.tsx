@@ -1,4 +1,7 @@
 /* eslint-disable prettier/prettier */
-const Main = () => (<main><h1>React Avançado</h1></main>)
+const Main = () => 
+    <main>
+        <h1>React Avançado</h1>
+    </main>
 
-export default Main;
+export default Main

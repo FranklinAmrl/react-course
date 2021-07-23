@@ -1,22 +1,19 @@
 {
     "env": {
         "browser": true,
-        "es2021": true,
-        "jest": true,
-        "node": true
+        "es2021": true
     },
 
-    "settings":{
+    "settings": {
         "react": {
             "version": "detect"
         }
     },
-
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:prettier/recommended"
+        "plugin:@typescript-eslint/eslintrecommended",
+        "plugin:@typescript-eslint/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -36,6 +33,7 @@
         "react-hooks/exhaustive-deps": "warn",
         "react/prop-types": "off",
         "react/react-in-jsx-scope": "off",
-        "@typescript-eslint/explicit-module-boundary-types": "off" 
+        "@ypescript-eslint/explicit-module-boundary-types": "off"
+
     }
 }

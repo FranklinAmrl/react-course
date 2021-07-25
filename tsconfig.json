@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/styles/global.ccs"  ],
+, "src/styles/global.ccs", "src/components/Main/__snapshots__/test.tsx.snap"  ],
   "exclude": [
     "node_modules"
   ]

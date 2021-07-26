@@ -3,7 +3,6 @@ module.exports = {
   addons: [
     '@storybook/addon-actions',
     '@storybook/addon-links',
-    '@storybook/addon-knobs/register',
-    '@storybook/addon-knobs'
+    '@storybook/addon-knobs/register'
   ]
 }
